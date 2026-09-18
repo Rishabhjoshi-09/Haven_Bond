@@ -1,7 +1,7 @@
 
 # Haven Bond 🦔🥕
 
-**Haven Bond** is a 2D platformer game built with the Godot Engine. Play as an adventurous hedgehog traversing dynamic tile-based levels, gathering carrots, dodging enemies, and curling up into a high-speed spin roll to overcome obstacle courses and narrow paths[cite: 1].
+**Haven Bond** is a 2D platformer game built with the Godot Engine. Play as an adventurous hedgehog traversing dynamic tile-based levels, gathering carrots, dodging enemies, and curling up into a high-speed spin roll to overcome obstacle courses and narrow paths.
 
 ---
 
@@ -27,8 +27,14 @@
 
 Ensure you have **Godot Engine 4.x** installed. You can download it from [godotengine.org](https://godotengine.org/download).
 
+##🕹️ Controls
+ActionKey / InputMove Left / RightA / D or Left Arrow / Right ArrowJumpSpacebar / Up ArrowRoll Ability[Insert assigned key, e.g., Shift or S / Down Arrow]
+
+
+
 ### Running the Game
 
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/Rishabhjoshi-09/Haven_Bond.git](https://github.com/Rishabhjoshi-09/Haven_Bond.git)
+   
