@@ -29,6 +29,7 @@ Ensure you have **Godot Engine 4.x** installed. You can download it from [godote
 
 ## 🕹️ Controls
 | Action | Key/Input |
+| ------ | --------- |
 | Move Left/Right | A/D or Left_Arrow/Right_Arrow
 | JumpSpacebar | Up Arrow |
 | Roll Ability | Space |
