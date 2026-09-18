@@ -1,0 +1,209 @@
+[gd_scene format=3 uid="uid://b76edv31a8rjt"]
+
+[ext_resource type="Texture2D" uid="uid://jlu3yft1iekd" path="res://assets/sprites/carrot.png" id="1_btq7l"]
+[ext_resource type="Script" uid="uid://mv07gxkuuprf" path="res://scripts/carrot.gd" id="1_elckd"]
+[ext_resource type="AudioStream" uid="uid://b4u3b58grsgbb" path="res://assets/sounds/carrot etting sound.mp3" id="3_mb1r7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elckd"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(0, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mb1r7"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(173, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0dx6"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(346, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2vgq"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(519, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wql3v"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(692, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shfyt"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(865, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6qnir"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(1038, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fn2tn"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(1211, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1l4ui"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(1384, 0, 173, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5j8o0"]
+atlas = ExtResource("1_btq7l")
+region = Rect2(1557, 0, 173, 144)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_waetf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elckd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mb1r7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0dx6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2vgq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wql3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_shfyt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6qnir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fn2tn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1l4ui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5j8o0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pc3jh"]
+radius = 6.3245554
+
+[sub_resource type="Animation" id="Animation_x0dx6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PickUpSound:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_o2vgq"]
+resource_name = "carrot eating"
+length = 1.2666667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.06666666),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.056666672, 0.06666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PickUpSound:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.06666666),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.033333335),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wql3v"]
+_data = {
+&"RESET": SubResource("Animation_x0dx6"),
+&"carrot eating": SubResource("Animation_o2vgq")
+}
+
+[node name="carrot" type="Area2D" unique_id=2112553722]
+collision_mask = 2
+script = ExtResource("1_elckd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=908147083]
+position = Vector2(-1, -17)
+scale = Vector2(0.191474, 0.21874999)
+sprite_frames = SubResource("SpriteFrames_waetf")
+autoplay = "default"
+frame_progress = 0.9326829
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1204037021]
+position = Vector2(0, -12)
+shape = SubResource("CircleShape2D_pc3jh")
+
+[node name="PickUpSound" type="AudioStreamPlayer2D" parent="." unique_id=1090900824]
+stream = ExtResource("3_mb1r7")
+bus = &"SFX"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1121268412]
+libraries/ = SubResource("AnimationLibrary_wql3v")
+
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

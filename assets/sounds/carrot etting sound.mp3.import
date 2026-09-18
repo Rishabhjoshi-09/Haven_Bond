@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b4u3b58grsgbb"
+path="res://.godot/imported/carrot etting sound.mp3-cb2a97ab4a2e30b5f5c67c617964bc9e.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/carrot etting sound.mp3"
+dest_files=["res://.godot/imported/carrot etting sound.mp3-cb2a97ab4a2e30b5f5c67c617964bc9e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
