@@ -27,8 +27,11 @@
 
 Ensure you have **Godot Engine 4.x** installed. You can download it from [godotengine.org](https://godotengine.org/download).
 
-##🕹️ Controls
-ActionKey / InputMove Left / RightA / D or Left Arrow / Right ArrowJumpSpacebar / Up ArrowRoll Ability[Insert assigned key, e.g., Shift or S / Down Arrow]
+## 🕹️ Controls
+| Action | Key/Input |
+| Move Left/Right | A/D or Left_Arrow/Right_Arrow
+| JumpSpacebar | Up Arrow |
+| Roll Ability | Space |
 
 
 
